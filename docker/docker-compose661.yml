@@ -1,7 +1,7 @@
 version: '2'
 services:
   splunk:
-    image: splunk/splunk:7.0.2
+    image: splunk/splunk:6.6.1
     hostname: splunkenterprise
     environment:
       SPLUNK_START_ARGS: --accept-license --answer-yes
